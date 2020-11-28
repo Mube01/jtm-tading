@@ -160,10 +160,11 @@ h3 {
 
 .card {
     margin: 10px 5px;
+    border-radius: 50px;
 }
 
 .card-body {
-    background-color: rgb(251, 251, 251);
+    background-color: red;
 }
 
 .card-img-top {
@@ -176,7 +177,7 @@ h3 {
 
 @media screen and (max-width: 768px) {
     .card {
-        margin: 10px 30px;
+        margin: 10px 10px;
     }
     .card-img-top {
         height: 300px;
