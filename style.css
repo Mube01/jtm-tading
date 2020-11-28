@@ -148,6 +148,7 @@ h3 {
 
 .card {
     margin: 10px 5px;
+    border-radius: 50px;
 }
 
 .card-body {
