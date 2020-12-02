@@ -12,6 +12,7 @@ body {
 /*----------------------------header------------------------------*/
 
 #header {
+    position: -webkit-sticky;
     position: sticky;
     top: 0;
     z-index: 100;
@@ -158,6 +159,7 @@ h3 {
 .card-img-top {
     height: 250px;
     padding: 20px;
+    background: #fff;
     background-size: cover;
     background-attachment: fixed;
     border-bottom: 1px solid #D3D3D3;
@@ -257,6 +259,13 @@ iframe {
 
 #contact label {
     font-weight: 600;
+}
+
+textarea.form-control:focus,
+input.form-control:focus {
+    border-color: #0093E9;
+    box-shadow: 0;
+    outline: 0;
 }
 
 
